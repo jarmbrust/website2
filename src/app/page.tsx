@@ -6,7 +6,7 @@ export default function Home() {
         <h1 className="flex mt-[20px] text-2xl">Hello, and welcome to my humble website!</h1>
         <p className="mt-[10px]">My name is James Armbrust, and I am a software developer based in sunny Colorado!</p>
         <p className="mt-[10px]">The purpose of this simple page is to collect some of my recent personal projects in one place.</p>
-        <p className="mt-[10px]">I will add projects here as I create suitable ones, and improving on this page as I go, so stay tuned!</p>
+        <p className="mt-[10px]">I will add projects here as I create suitable ones, and improve on this page as I go, so stay tuned!</p>
 
         <div className="mt-[30px]">
           <table className="w-full border-collapse">
