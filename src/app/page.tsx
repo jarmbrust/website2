@@ -14,6 +14,7 @@ export default function Home() {
               <tr className="border border-zinc-500" >
                 <th className="px-4 py-2 border-zinc-500">Project</th>
                 <th className="px-4 py-2 border-zinc-500">Description</th>
+                <th className="px-4 py-2 border-zinc-500">Tech Stack</th>
                 <th className="px-4 py-2 border-zinc-500">Code</th>
               </tr>
               <tr className="border border-zinc-500">
@@ -29,6 +30,9 @@ export default function Home() {
                   Similar to a simple e-commerce site this is an adventure game where you hire heroes to defeat monsters
                   and save your village.
                 </td>
+                <td className="max-w-[80px] px-5 py-4">
+                  React, Next.js, TypeScript, Tailwind
+                </td>
                 <td className="text-blue-700 px-5 py-4">
                   <a  href="https://github.com/jarmbrust/hire-an-adventurer" target="_blank">
                     GitHub
@@ -38,6 +42,7 @@ export default function Home() {
               <tr className="border border-zinc-500" >
                 <td className="px-5 py-4">In Progress...</td>
                 <td className="max-w-[600px] px-5 py-4">TBD</td>
+                <td className="px-5 py-4">TBD</td>
                 <td className="px-5 py-4">TBD</td></tr>
             </tbody>
           </table>
