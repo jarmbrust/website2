@@ -18,11 +18,12 @@ export default function Home() {
                 <th className="px-4 py-2 border-zinc-500">Code</th>
               </tr>
               <tr className="border border-zinc-500">
-                <td className="px-5 py-4 border-zinc-500">
+                <td className="px-5 py-4">
                   <a
                     className="text-blue-700"
                     href="https://hire-an-adventurer.vercel.app/"
-                    target="_blank">
+                    target="_blank"
+                  >
                     Hire an Adventurer!
                   </a>
                 </td>
@@ -34,16 +35,35 @@ export default function Home() {
                   React, Next.js, TypeScript, Tailwind
                 </td>
                 <td className="text-blue-700 px-5 py-4">
-                  <a  href="https://github.com/jarmbrust/hire-an-adventurer" target="_blank">
+                  <a
+                    href="https://github.com/jarmbrust/hire-an-adventurer"
+                    target="_blank"
+                  >
                     GitHub
                   </a>
                 </td>
               </tr>
               <tr className="border border-zinc-500" >
-                <td className="px-5 py-4">In Progress...</td>
-                <td className="max-w-[600px] px-5 py-4">TBD</td>
-                <td className="px-5 py-4">TBD</td>
-                <td className="px-5 py-4">TBD</td></tr>
+                <td className="px-5 py-4 border-zinc-500">
+                  <a
+                    className="text-blue-700"
+                    href="https://james3k.com/"
+                    target="_blank"
+                  >
+                    Old Personal Website
+                  </a>
+                </td>
+                <td className="max-w-[600px] px-5 py-4">
+                  This was a site I created a few months ago in Vue.js.
+                  I have since retired it to start this simpler site in React, but it is still hosted online.
+                </td>
+                <td className="px-5 py-4">Vue 3, TypeScript, SCSS, Node.js, Mongodb, Vitest</td>
+                <td className="text-blue-700 px-5 py-4">
+                  <a  href="https://github.com/jarmbrust/website1" target="_blank">
+                    GitHub
+                  </a>
+                </td>
+              </tr>
             </tbody>
           </table>
         </div>
