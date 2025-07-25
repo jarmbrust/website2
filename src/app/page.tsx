@@ -22,7 +22,7 @@ export default function Home() {
                 <tr className="border border-zinc-500">
                   <td className="px-5 py-4 text-3xl">
                     <a
-                      className="text-blue-300"
+                      className="text-blue-300 hover:underline"
                       href="https://hire-an-adventurer.vercel.app/"
                       target="_blank"
                     >
@@ -43,8 +43,9 @@ export default function Home() {
                   <td className="max-w-[80px] px-5 py-4">
                     React 19, Next.js 15, TypeScript, Tailwind, PostgreSQL
                   </td>
-                  <td className="text-blue-300 px-5 py-4">
+                  <td className="px-5 py-4">
                     <a
+                      className="text-blue-300 hover:underline"
                       href="https://github.com/jarmbrust/hire-an-adventurer"
                       target="_blank"
                     >
@@ -53,14 +54,14 @@ export default function Home() {
                   </td>
                 </tr>
                 <tr className="border border-zinc-500">
-                  <td className="text-blue-300 px-5 py-4">
+                  <td className="text-blue-500 px-5 py-4">
                       Personal Website/Portfolio
                   </td>
                   <td className="max-w-[600px] px-5 py-4">
                     This sight is TBD, but will likely be in React and Next.js. 
                   </td>
                   <td className="px-5 py-4">TBD</td>
-                  <td className="text-blue-300 px-5 py-4">
+                  <td className="text-blue-500 px-5 py-4">
                     GitHub
                   </td>
                 </tr>
