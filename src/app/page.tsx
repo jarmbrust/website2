@@ -31,15 +31,19 @@ export default function Home() {
                     </a>
                   </td>
                   <td className="max-w-[700px] px-5 py-4">
-                    Similar in some ways to a simple e-commerce app, this project is game where you are the in charge of saving your town
-                    by hiring adventurers to defeat the monsters trying to attack it.  There are no game graphics (yet), since 
-                    as I mentioned this is mostly structured like an e-commerce app. 
-                    <br /><br />
-                    In the game you hire adventurers out of a pool of available ones by selecting and placing them in your &quot;cart&quot;.
-                    Then you hire the selected adventurers in a &quot;checkout&quot; page (similar to purchasing items as if you were at an online store). 
-                    When ready, you send them to fight the monsters <span className="italic">off screen</span>.  Success or failure is determined by 
-                    the relative abilities of the various adventurers you selected and the monsters they are fighting.  
-                    This will also determine the condition they are in when they return.
+                    <p>
+                      Similar in some ways to a simple e-commerce app, this project is game where you are the in charge of saving your town
+                      by hiring adventurers to defeat the monsters trying to attack it.  There are no game graphics (yet), since 
+                      as I mentioned this is mostly structured like an e-commerce app.
+                    </p>
+                    <br />
+                    <p>
+                      In the game you hire adventurers out of a pool of available ones by selecting and placing them in your &quot;cart&quot;.
+                      Then you hire the selected adventurers in a &quot;checkout&quot; page (similar to purchasing items as if you were at an online store). 
+                      When ready, you send them to fight the monsters <span className="italic">off screen</span>.  Success or failure is determined by 
+                      the relative abilities of the various adventurers you selected and the monsters they are fighting.  
+                      This will also determine the condition they are in when they return.
+                    </p>
                   </td>
                   <td className="max-w-[80px] px-5 py-4">
                     React 19, Next.js 15, TypeScript, Tailwind, PostgreSQL
