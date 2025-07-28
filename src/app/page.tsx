@@ -8,9 +8,9 @@ export default function Home() {
           <h1 className="flex mt-[20px] text-2xl">Hello, and welcome to my (placeholder) website!</h1>
           <p className="mt-[10px]">My name is James Armbrust, and I am a software developer focused (mostly) on frontend development!</p>
           <p className="mt-[10px]">The purpose of this simple page is to collect some of my recent personal projects in one place.</p>
-          <p className="mt-[10px]">I only have one project I would like to share at this time, but it was a fun one to work on and as a decent
+          <p className="mt-[10px]">I only have one project I would like to share at this time, but it was a fun one to work on and has a decent
             amount of complexity, so check it out!</p>
-          <p>I am working to enhance that project (see its &quot;about&quot; section), and I have others in the pipeline, so stay tuned!</p>
+          <p>I will be enhancing this project going forward (see its &quot;about&quot; section), and I have others in the pipeline, so stay tuned!</p>
           <div className="mt-[30px]">
             <table className=" border-zinc-500">
               <tbody className=" border-zinc-500">
