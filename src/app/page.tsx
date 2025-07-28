@@ -5,16 +5,16 @@ export default function Home() {
     <div className="flex min-h-screen flex-col items-center bg-gradient-to-b from-[#76707c] to-[#030310] text-white">
       <main className="flex flex-col items-center text-center justify-between p-14">
         <h1 className="flex mt-[20px] text-3xl">Hello, and welcome to my (placeholder) website!</h1>
-        <p className="mt-5">
+        <p className="mt-3 mx-20">
           My name is James Armbrust, and I am a software developer focused (mostly) on frontend development.
           I have a bachelor&apos;s degree in Computer Science from the University of Iowa and I have professional
           experience with TypeScript/JavaScript, CSS/SCSS, HTML, React, Vue, Node.js, and SQL (amongst other technologies).
         </p>
-        <p className="mt-5">The purpose of this simple page is to collect some of my recent personal projects in one place.</p>
-        <p className="mt-5">I only have one project I would like to share at this time, but it was a fun one to work on and has a decent
+        <p className="mt-3 mx-20">The purpose of this simple page is to collect some of my recent personal projects in one place.</p>
+        <p className="mt-3 mx-20">I only have one project I would like to share at this time, but it was a fun one to work on and has a decent
           amount of complexity, so check it out!</p>
         <p>I will be enhancing this project going forward, and I have others in the pipeline, so stay tuned!</p>
-        <div className="mt-[30px]">
+        <div className="mt-8">
           <table className=" border-zinc-500">
             <tbody className=" border-zinc-500 text-left">
               <tr className="border border-zinc-500">
