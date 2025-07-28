@@ -60,10 +60,10 @@ export default function Home() {
                 </tr>
                 <tr className="border border-zinc-500">
                   <td className="text-blue-500 px-5 py-4">
-                      Personal Website/Portfolio
+                    Personal Website/Portfolio
                   </td>
                   <td className="max-w-[600px] px-5 py-4">
-                    This sight is TBD, but will likely be in React and Next.js. 
+                    A replacement for this page.  Will likely also be in React and Next.js.
                   </td>
                   <td className="px-5 py-4">TBD</td>
                   <td className="text-blue-500 px-5 py-4">
