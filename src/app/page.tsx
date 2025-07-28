@@ -10,7 +10,7 @@ export default function Home() {
           <p className="mt-[10px]">The purpose of this simple page is to collect some of my recent personal projects in one place.</p>
           <p className="mt-[10px]">I only have one project I would like to share at this time, but it was a fun one to work on and has a decent
             amount of complexity, so check it out!</p>
-          <p>I will be enhancing this project going forward (see its &quot;about&quot; section), and I have others in the pipeline, so stay tuned!</p>
+          <p>I will be enhancing this project going forward, and I have others in the pipeline, so stay tuned!</p>
           <div className="mt-[30px]">
             <table className=" border-zinc-500">
               <tbody className=" border-zinc-500">
@@ -40,9 +40,14 @@ export default function Home() {
                     <p>
                       In the game you hire adventurers out of a pool of available ones by selecting and placing them in your &quot;cart&quot;.
                       Then you hire the selected adventurers in a &quot;checkout&quot; page (similar to purchasing items as if you were at an online store). 
-                      When ready, you send them to fight the monsters <span className="italic">off screen</span>.  Success or failure is determined by 
-                      the relative abilities of the various adventurers you selected and the monsters they are fighting.  
-                      This will also determine the condition they are in when they return.
+                      When ready, you send them to fight the monsters off screen.  Success or failure is determined by 
+                      the relative abilities of the various adventurers you selected and the attributes and power of the monsters they are fighting.  
+                      The results will also determine the condition the adventurers are in when they return.
+                    </p>
+                    <br />
+                    <p>
+                      This project is basically in its initial beta, or maybe 1.0 stage, and thus I have several more features planned.
+                      See the app&apos;s &quot;about&quot; page for a list of the upcoming enhancements.
                     </p>
                   </td>
                   <td className="max-w-[80px] px-5 py-4">
